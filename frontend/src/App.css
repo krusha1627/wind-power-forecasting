@@ -1,0 +1,143 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 70px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+ }
+#img{
+  height: 200px;
+  width: 300px;
+ float: right;
+ margin-bottom: 30px;
+ margin-right: 70px;
+}
+.App {
+  background: linear-gradient(135deg, #4b79a1, #283e51);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 810px;
+  backdrop-filter: blur(15px);
+  transition: all 0.3s ease-in-out;
+  margin-top: 40px;
+}
+
+.App:hover {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #f0f0f0;
+
+}
+
+.input-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  width: 100%;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: #f8f8f8;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: #ffffff;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border: 2px solid #00c2ff;
+  background: #eef;
+  box-shadow: 0px 0px 10px rgba(0, 194, 255, 0.5);
+}
+
+button {
+  grid-column: span 2;
+  margin-top: 20px;
+  padding: 14px;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #e53935, #d81b60);
+  transform: scale(1.05);
+}
+
+.prediction-result {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .App {
+    width: 95%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .input-form {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    grid-column: span 1;
+  }
+}
+

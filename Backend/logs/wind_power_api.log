@@ -1,0 +1,64 @@
+2025-03-01 18:59:27,792 - INFO - Model and scaler loaded successfully.
+2025-03-01 18:59:27,793 - INFO - Starting Wind Power Prediction API
+2025-03-01 18:59:36,550 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 18:59:36,558 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 19:01:59,312 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 19:01:59,319 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 19:02:27,850 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 19:02:27,857 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 19:03:37,626 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 19:03:37,630 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 19:06:13,815 - INFO - Received prediction request with data: {'u10': 23, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 19:06:13,826 - INFO - Successful prediction: 0.1039 (normalized), 10.39 MW
+2025-03-01 19:06:21,179 - INFO - Received prediction request with data: {'u10': 23, 'v10': -2, 'u100': 30, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 19:06:21,188 - INFO - Successful prediction: 0.6417 (normalized), 64.17 MW
+2025-03-01 19:07:39,513 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 19:07:39,513 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 19:10:21,622 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 19:10:21,623 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 21:59:16,687 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 21:59:16,725 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 21:59:18,900 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-01 21:59:18,900 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-01 21:59:24,637 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 30, 'month': 6, 'year': 2023}
+2025-03-01 21:59:24,645 - INFO - Successful prediction: 0.0730 (normalized), 7.30 MW
+2025-03-01 21:59:28,768 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 30, 'month': 6, 'year': 2023}
+2025-03-01 21:59:28,772 - INFO - Successful prediction: 0.0730 (normalized), 7.30 MW
+2025-03-01 21:59:29,952 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 30, 'month': 6, 'year': 2023}
+2025-03-01 21:59:29,961 - INFO - Successful prediction: 0.0730 (normalized), 7.30 MW
+2025-03-01 21:59:33,503 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 30, 'month': 6, 'year': 2024}
+2025-03-01 21:59:33,511 - INFO - Successful prediction: 0.0730 (normalized), 7.30 MW
+2025-03-01 21:59:39,503 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 30, 'v100': -3, 'hour': 12, 'day': 30, 'month': 6, 'year': 2024}
+2025-03-01 21:59:39,511 - INFO - Successful prediction: 0.5751 (normalized), 57.51 MW
+2025-03-02 11:14:04,834 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-02 11:14:04,861 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-02 11:14:10,862 - INFO - Received prediction request with data: {'u10': 5, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-02 11:14:10,868 - INFO - Successful prediction: 0.1039 (normalized), 10.39 MW
+2025-03-02 11:14:17,542 - INFO - Received prediction request with data: {'u10': 5, 'v10': -25, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-02 11:14:17,551 - INFO - Successful prediction: 0.1201 (normalized), 12.01 MW
+2025-03-02 11:14:21,038 - INFO - Received prediction request with data: {'u10': 5, 'v10': -25, 'u100': 30, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-02 11:14:21,051 - INFO - Successful prediction: 0.4959 (normalized), 49.59 MW
+2025-03-02 11:15:40,655 - INFO - Model and scaler loaded successfully.
+2025-03-02 11:15:40,655 - INFO - Starting Wind Power Prediction API
+2025-03-03 11:19:03,837 - INFO - Model and scaler loaded successfully.
+2025-03-03 11:19:03,838 - INFO - Starting Wind Power Prediction API
+2025-03-03 11:20:10,499 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-03 11:20:10,566 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-03 15:04:52,690 - INFO - Model and scaler loaded successfully.
+2025-03-03 15:04:52,697 - INFO - Starting Wind Power Prediction API
+2025-03-03 15:13:02,979 - INFO - Model and scaler loaded successfully.
+2025-03-03 15:13:02,980 - INFO - Starting Wind Power Prediction API
+2025-03-03 15:13:09,865 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-03 15:13:09,884 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-03 16:07:16,515 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-03 16:07:16,528 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-03 16:07:20,287 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-03 16:07:20,295 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-03 16:07:26,608 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 12, 'year': 2023}
+2025-03-03 16:07:26,612 - INFO - Successful prediction: 0.1256 (normalized), 12.56 MW
+2025-03-03 16:07:29,036 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 12, 'year': 2023}
+2025-03-03 16:07:29,046 - INFO - Successful prediction: 0.1256 (normalized), 12.56 MW
+2025-03-03 17:23:24,199 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 3, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-03 17:23:24,234 - INFO - Successful prediction: 0.0702 (normalized), 7.02 MW
+2025-03-03 17:23:43,117 - INFO - Received prediction request with data: {'u10': 2, 'v10': -2, 'u100': 30, 'v100': -3, 'hour': 12, 'day': 15, 'month': 6, 'year': 2023}
+2025-03-03 17:23:43,162 - INFO - Successful prediction: 0.5815 (normalized), 58.15 MW
